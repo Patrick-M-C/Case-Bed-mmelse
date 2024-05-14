@@ -1,7 +1,8 @@
 Test Plan: Sikkerhedstest og Kompatibilitetstest
 
+------------------------------------------------
 I. Introduction
-
+------------------------------------------------
 A. Purpose of the Test Plan:
 
 Formålet med denne testplan er at sikre, at den C#.NET server-side web applikation opfylder kravene til sikkerhed og kompatibilitet, som defineret i brugerens kravspecifikation.
@@ -16,8 +17,10 @@ Stærke password-krav under loginprocessen.
 SSL-certifikatintegration.
 Filoprettelse på Linux-server.
 
-II. Test Environment
 
+------------------------------------------------
+II. Test Environment
+------------------------------------------------
 A. Test environment needed for security testing:
 
 Windows- og Linux-servermiljø.
@@ -29,8 +32,10 @@ B. Test environment needed for compatibility testing:
 Operativsystemer: Windows, Linux.
 Webbrowsere: Chrome, Firefox, Edge.
 
-III. Test Cases
 
+------------------------------------------------
+III. Test Cases
+------------------------------------------------
 A. Security Test 1: Brugerregistrering og login med tofaktor-autentificering
 
 1. Åbn webapplikationen i en webbrowser.
@@ -45,8 +50,10 @@ B. Compatibility Test 1: Filoprettelse på Linux-server
 2. Kør webapplikationen og opret en tekstfil.
 3. Verificer, at tekstfilen er oprettet korrekt på serveren.
 
-IV. Conclusion
 
+------------------------------------------------
+IV. Conclusion
+------------------------------------------------
 A. Summary of Test Results:
 
 1. Alle sikkerhedsfunktioner blev testet og fungerer som forventet.
@@ -57,6 +64,8 @@ B. Recommendations:
 Fortsæt med at overvåge sikkerhedsaspekterne og sørg for, at eventuelle sikkerhedshuller lukkes løbende.
 Udfør yderligere test af kompatibilitet på forskellige enheder og browserversioner.
 
-V. Sign-off
 
+------------------------------------------------
+V. Sign-off
+------------------------------------------------
 Testteam og relevante interessenter skal underskrive for at bekræfte, at testen er udført og godkendt.
