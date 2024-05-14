@@ -24,7 +24,7 @@ public class AuthenticationTest
     [Fact]
     public void AuthenticationCode()
     {
-        //Arange
+        //Arrange
         var ctx = new TestContext();
         var authContext = ctx.AddTestAuthorization();
         authContext.SetAuthorized("");
@@ -34,6 +34,6 @@ public class AuthenticationTest
         var homeObj = cut.Instance;
 
         //Assert
-        Assert.False(homeObj.());
+        Assert.Equal(homeObj._isAuthenticated, true);
     }
 }
