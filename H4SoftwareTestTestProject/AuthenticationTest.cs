@@ -18,7 +18,7 @@ public class AuthenticationTest
         var cut = ctx.RenderComponent<Home>();
 
         //Assert
-        cut.MarkupMatches("<h1>Hello, world!</h1>\r\n<br />\r\n<div>Hello again</div>");
+        cut.MarkupMatches("<h1>Hello, world!</h1>\r\n<h2>You are NOT admin</h2>\r\n<br/>");
     }
 
     [Fact]
